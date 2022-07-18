@@ -1,0 +1,5 @@
+package sfgpetclinic;
+
+class SfgPetClinicApplicationTest {
+
+}
