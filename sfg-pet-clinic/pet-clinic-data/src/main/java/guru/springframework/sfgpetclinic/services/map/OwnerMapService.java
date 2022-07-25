@@ -2,11 +2,13 @@ package guru.springframework.sfgpetclinic.services.map;
 
 import guru.springframework.sfgpetclinic.model.Owner;
 import guru.springframework.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Set;
 
 //È possibile eliminare da OwnerService[<Owner, Long>] le parentesi quadre perché OwnerService ESTENDE CrudService<Owner, Long>
+@Service
 public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 
 
